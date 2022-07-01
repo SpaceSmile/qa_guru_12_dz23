@@ -1,6 +1,6 @@
 package io.qameta.allure;
 
-import jdk.nashorn.internal.ir.annotations.Ignore;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 @Layer("rest")
 @Owner("baev")
 @Feature("Issues")
-@Ignore
+@Disabled("Stopping tests")
 public class IssuesRestTest {
 
     private static final String OWNER = "allure-framework";

@@ -1,12 +1,6 @@
 package io.qameta.allure;
 
-import jdk.nashorn.internal.ir.annotations.Ignore;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Tags;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 /**
  * @author eroshenkoam (Artem Eroshenko).
@@ -14,7 +8,7 @@ import org.junit.jupiter.api.Test;
 @Layer("web")
 @Owner("eroshenkoam")
 @Feature("Issues")
-@Ignore
+@Disabled("Stopping tests")
 public class IssuesWebTest {
 
     private static final String OWNER = "allure-framework";
